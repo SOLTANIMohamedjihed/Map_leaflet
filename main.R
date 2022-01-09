@@ -1,9 +1,4 @@
-library(dplyr)
-library(ggplot2)
-library(rjson)
-library(jsonlite)
 library(leaflet)
-library(RCurl)
 
 r_birthplace_map <- leaflet() %>%
   addTiles() %>%  # use the default base map which is OpenStreetMap tiles
